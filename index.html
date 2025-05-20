@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Суперказик</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+            <h1>Орёл и Решка</h1>
+            <div class="balance">
+                Баланс: <span id="balance">0</span> ₽
+            </div>
+            <div class="bet-input">
+                <input type="number" id="betAmount" placeholder="Введите ставку" min="1">
+            </div>
+            <div class="coin-container">
+                <div class="coin" id="coin">
+                    <div class="heads"></div>
+                    <div class="tails"></div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="headsBtn" class="game-btn">Орёл</button>
+                <button id="tailsBtn" class="game-btn">Решка</button>
+            </div>
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
